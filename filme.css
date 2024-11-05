@@ -1,0 +1,301 @@
+body {
+    background-color: #0b0b0b;
+   
+}
+
+h2 {
+    color: rgb(225, 214, 214);
+}
+
+.cor1{
+    background-color: #cd2c2c;
+}
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+i{
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    cursor: pointer;
+}
+
+/**/
+.swiper{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+div {
+    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Reseta estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+/* Logotipo */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e50914;
+}
+
+/* Links de navegação */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #e50914;
+}
+
+
+
+
+
+
+:root{
+    --pink: #86797a;
+    --black: #7b7c7f;
+    --gray: #bebebe;
+    --light-gray: #d9d9d9;
+    --comment-box: #dbdcea;
+    --comment: #555D68;
+    --comment-date: #BABABA;
+    --warning: #e22c2c;
+    --yellow: #eee62f;
+}
+
+
+
+.navBar ul li a:hover{
+    color: var(--pink);
+}
+
+/* Reseta estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+/* Logotipo */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #644a4b;
+   
+}
+
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #574e4f;
+}
+
+/* Ícones */
+.icons {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+
+
+
+
+/* Container da imagem */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image-container img {
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+/* Oculta o vídeo por padrão */
+.video-preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18%;
+    height: 90%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+/* Aparecer o vídeo ao passar o mouse */
+.image-container:hover img {
+    opacity: 0;
+}
+
+.image-container:hover .video-preview {
+    opacity: 1;
+}
+
+
+/* Estilos básicos para centralizar e dar um fundo escuro */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e50914; /* Vermelho estilo Netflix */
+}
+
+/* Estilos para os ícones de notificação e perfil */
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-icons i {
+    font-size: 1.2rem;
+    color: #ffffff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-icons i:hover {
+    color: #e50914;
+}
+
+/* Estilo da imagem de perfil */
+.profile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+.profile img:hover {
+    border-color: #373535;
+    /* Navbar */
+
+    width: 40%;
+
+}
+
+/* Imagem com vídeo oculto */
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.image-container:hover .video-overlay {
+    display: block;
+}
+
+.video.container {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
